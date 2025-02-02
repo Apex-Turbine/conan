@@ -1,0 +1,8 @@
+sources:
+  "9.4.1": 
+    url: "https://github.com/kitware/vtk.git"
+    tag: "v9.4.1"
+    
+  "9.3.1": 
+    url: "https://github.com/kitware/vtk.git"
+    tag: "v9.3.1"
