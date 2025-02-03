@@ -1,0 +1,5 @@
+sources:
+  "4.11.0":
+    url: "https://github.com/opencv/opencv.git"
+    tag: "4.11.0"
+    
