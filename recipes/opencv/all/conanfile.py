@@ -105,7 +105,7 @@ class opencvRecipe(ConanFile):
         "with_mfx": False,
         "with_gphoto2": False,
         "videoio_enable_plugins": True,
-        "videoio_plugins": "all",
+        "videoio_plugins": "",
         "with_tbb": False,
         "with_openmp": False,
         "with_hpx": False,
@@ -130,15 +130,15 @@ class opencvRecipe(ConanFile):
             del self.options.with_msmf
             del self.options.with_dshow
             del self.options.with_win32ui
-            self.default_options["with_gtk"] = True
-            self.default_options["with_v4l"] = True
+            self.options.with_gtk = True
+            self.options.with_v4l = True
 
         if self.settings.os == "Windows":
             del self.options.with_gtk
             del self.options.with_v4l
-            self.default_options["with_msmf"] = True
-            self.default_options["with_dshow"] = True
-            self.default_options["with_win32ui"] = True
+            self.options.with_msmf = True
+            self.options.with_dshow = True
+            self.options.with_win32ui = True
 
     def configure(self):
         pass
