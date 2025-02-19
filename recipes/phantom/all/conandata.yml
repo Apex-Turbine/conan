@@ -1,0 +1,9 @@
+sources:
+  "3.8.804.66":
+    sdkVersion: "13.8.804.66"
+    libFolder: "Lib"
+    includeFolder: "inc"
+    binFolder: "bin"
+    tag: "_V2"
+
+    
