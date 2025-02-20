@@ -63,6 +63,7 @@ class vtkRecipe(ConanFile):
 
     requires = [
         "nlohmann_json/[~3.11]",
+        "hdf5/[~1.14]"
     ]
 
     def config_options(self):
