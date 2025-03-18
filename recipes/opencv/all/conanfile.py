@@ -105,7 +105,7 @@ class opencvRecipe(ConanFile):
         "with_mfx": False,
         "with_gphoto2": False,
         "videoio_enable_plugins": True,
-        "videoio_plugins": "",
+        "videoio_plugins": "all",
         "with_tbb": False,
         "with_openmp": False,
         "with_hpx": False,
